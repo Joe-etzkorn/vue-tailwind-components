@@ -1,7 +1,7 @@
 import TCheckbox from '../src/components/Forms/TCheckbox';
 
 export default {
-	title: 'FORMS/TCheckbox',
+	title: 'Forms/TCheckbox',
 	component: TCheckbox,
 	argTypes: { 
 		color: {
