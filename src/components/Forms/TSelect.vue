@@ -139,6 +139,7 @@
                             class="font-normal m-2"
                             v-html="item.optionListLabel ? item.optionListLabel : item[itemLabel]"
                         />
+                        <slot v-if="$scopedSlots.option" :option="item" />
                     </li>
                 </div>
                 <div v-else-if="!loading && computedOptions.length && grouped">
@@ -491,7 +492,7 @@ export default {
     },
     methods: {
         inputFilter(e) {
-            const filters = '\<\>\/\\'
+            const filters = '<>/\\'
             if (filters.includes(e.key)) {
                 e.preventDefault()
             }
@@ -605,7 +606,6 @@ export default {
             // lets ignore these events since they are not searches
             if (event.key === 'ArrowUp' || event.key === 'ArrowDown' || event.key === 'Enter') return false;
             
-            this.localsearch = this.localsearch.replace(/[\<\>//\\]/gi, '')
             if(!this.textField || (this.textField && this.searchableOptions.length)) this.menu = true;
             this.isSearching = true;
 
