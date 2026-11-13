@@ -3,8 +3,8 @@
   "description": "vue tailwind components",
   "version": "1.0.0",
   "author": {
-    "name": "Marshall Johnson",
-    "email": "marshall-johnson@gmail.com"
+    "name": "joe-etzkorn",
+    "email": "etzkornjoe@gmail.com"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/marshall-johnson"
@@ -18,9 +18,9 @@
   },
   "repository": {
     "typ": "git",
-    "url": "https://github.com/marshall-johnson/vue-tailwind-components.git"
+    "url": "https://github.com/Joe-etzkorn/vue-tailwind-components.git"
   },
-  "homepage": "https://github.com/marshall-johnson/vue-tailwind-components",
+  "homepage": "https://github.com/Joe-etzkorn/vue-tailwind-components",
   "files": [
     "src/"
   ],
