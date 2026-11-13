@@ -1,5 +1,5 @@
 {
-  "name": "@marshall-johnson/vue-tailwind-components",
+  "name": "@joe-etzkorn/vue-tailwind-components",
   "description": "vue tailwind components",
   "version": "1.0.0",
   "author": {
@@ -7,7 +7,7 @@
     "email": "etzkornjoe@gmail.com"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/marshall-johnson"
+    "registry": "https://npm.pkg.github.com/Joe-etzkorn"
   },
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,7 @@
     "build-storybook": "build-storybook"
   },
   "repository": {
-    "typ": "git",
+    "type": "git",
     "url": "https://github.com/Joe-etzkorn/vue-tailwind-components.git"
   },
   "homepage": "https://github.com/Joe-etzkorn/vue-tailwind-components",
