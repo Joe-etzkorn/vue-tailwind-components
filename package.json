@@ -7,7 +7,7 @@
     "email": "etzkornjoe@gmail.com"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Joe-etzkorn"
+    "registry": "https://npm.pkg.github.com/joe-etzkorn"
   },
   "scripts": {
     "dev": "vite",
